@@ -1,6 +1,5 @@
-# docker-email-sender
-Projeto do Curso de Docker
+# Projeto do Curso de Docker
 
-Solução desenvolvida:
+## Solução desenvolvida:
 
 ![https://raw.githubusercontent.com/lgarciasbr/docker-email-sender/master/design-solution.png]
