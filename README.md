@@ -3,4 +3,4 @@ Projeto do Curso de Docker
 
 Solução desenvolvida:
 
-[[https://github.com/lgarciasbr/docker-email-sender/design-solution.png]]
+[[https://raw.githubusercontent.com/lgarciasbr/docker-email-sender/master/design-solution.png]]
