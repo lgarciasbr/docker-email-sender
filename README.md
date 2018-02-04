@@ -1,2 +1,6 @@
 # docker-email-sender
-Projeto do curso de Docker
+Projeto do Curso de Docker
+
+Solução desenvolvida:
+
+[[/design-solution.png]]

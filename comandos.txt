@@ -1,0 +1,13 @@
+docker-compose up -d
+docker-compose up -d --scale worker=3
+
+docker-compose exec db psql -U postgres -c '\l'
+docker-compose exec db psql -U postgres -f ./scripts/check.sql
+docker-compose exec db psql -U postgres -d email_sender -c 'select * from emails'
+
+# monitorar os logs
+docker-compose logs -f -t
+docker-compose logs -f -t worker 
+
+# para apagar o volume -v
+docker-compose down -v
